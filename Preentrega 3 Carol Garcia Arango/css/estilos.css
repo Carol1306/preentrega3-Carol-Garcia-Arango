@@ -1,0 +1,204 @@
+section h3 {
+  font-size: 18px;
+  font-family: "corbel";
+  text-decoration: underline;
+}
+section h4 {
+  text-decoration-color: black;
+  font-size: 150%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: beige;
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
+
+main h2 {
+  font-family: "corbel";
+  font-size: 25px;
+}
+main .Bienvenidos {
+  margin: 30px;
+}
+main h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.carouselslide {
+  margin: 50px 10px 0px;
+  padding: 30px 20px 20px;
+}
+.carouselslide .carousel-inner {
+  padding: 20px 10px 10px;
+}
+
+header {
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+section img {
+  width: 200px;
+  height: 200px;
+}
+section h3 {
+  font-size: 18px;
+  font-family: "corbel";
+  text-decoration: underline;
+}
+section h4 {
+  text-decoration-color: black;
+  font-size: 150%;
+}
+
+div .principal h2 {
+  font-size: 30px;
+  font-family: "corbel";
+  font-style: italic;
+}
+div .principal p {
+  font-size: 20px;
+}
+
+.contenedor {
+  display: flex;
+  margin: 20px 50px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.imagendeenvio {
+  width: 60px;
+  height: 60px;
+  margin: 30px;
+}
+
+.imagendecontacto {
+  width: 30px;
+  height: 50px;
+  margin: 30px;
+}
+
+.imagendepago {
+  width: 40px;
+  height: 40px;
+  margin: 30px;
+}
+
+.bienvenidosconfoto {
+  display: flex;
+}
+.bienvenidosconfoto .principal {
+  margin: 40px 20px 15px 10px;
+  padding: 20px 15px 10px 30px;
+}
+.bienvenidosconfoto .mifoto {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  margin: 20px 10px 15px 5px;
+  padding: 20px 0px;
+}
+
+.galeriadefotos {
+  display: flex;
+  margin: 60px;
+  gap: 40px;
+}
+
+.productos {
+  display: flex;
+  margin: 0px 50px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.informacion {
+  margin: 20px;
+  padding: 30px;
+}
+.informacion h2 {
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.formulario {
+  display: block;
+  margin: 0px 50px;
+  padding: 30px;
+}
+
+.informaciondecontacto {
+  display: flex;
+  margin: 0px 50px;
+  padding: 40px;
+  gap: 50px;
+}
+
+@media screen and (min-width: 460px) and (max-width: 575.98px) {
+  footer {
+    background-color: rgb(9, 223, 238);
+  }
+  main h1 {
+    font-size: 25px;
+  }
+  .informacion h2 {
+    font-size: 20px;
+  }
+  .galeriadefotos {
+    display: grid;
+  }
+  .bienvenidosconfoto .principal {
+    margin-right: 20px;
+    padding-right: 30px;
+  }
+  .bienvenidosconfoto .mifoto {
+    display: flex;
+    margin: 30px 10px;
+    padding: 40px 30px 5px 5px;
+    width: 50%;
+    height: 50%;
+  }
+  .informaciondecontacto {
+    gap: 20px;
+    padding: 10px;
+  }
+  .informaciondecontacto .mapa {
+    width: 170px;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 991.98px) {
+  footer {
+    background-color: rgb(9, 223, 238);
+  }
+  main h1 {
+    font-family: "corbel";
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

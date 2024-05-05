@@ -1,0 +1,21 @@
+
+@mixin nombredeproducto{
+    font-size: 18px;
+    font-family: "corbel";
+    text-decoration: underline;
+}
+
+@mixin costoproducto{
+    text-decoration-color: black;
+    font-size: 150%;
+}
+
+section{
+    h3{
+        @include nombredeproducto;
+    }
+
+    h4{
+        @include costoproducto;
+    }
+}
